@@ -103,6 +103,7 @@ header {
 .card {
   padding: 2rem 3rem;
   background-color: #99bfd2;
+  background-color: #2babeb;
   color: #fff;
   font-size: 1.6rem;
   text-align: center;
@@ -128,4 +129,77 @@ header {
 }
 .hero-cards {
   margin-top: 8rem;
+}
+.doctor-section {
+  background-color: lightblue;
+  height: 120vh;
+  padding: 20rem 0 0 0;
+}
+.heading-section {
+  text-align: center;
+}
+.section-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px #333;
+  margin-bottom: 4rem;
+  color: #fff;
+}
+.slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.card-list {
+  display: flex;
+  padding: 0rem 8rem;
+}
+.card-item {
+  color: #fff;
+  width: 30rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  background-color: #2babeb;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.slide-buttons {
+  height: 400px;
+  color: black;
+  position: absolute;
+  z-index: 1;
+}
+.user-image {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  padding: 0.2rem;
+  margin-bottom: 3rem;
+}
+.user-name {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+.user-department {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 0.4rem;
+}
+.user-specialization {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+}
+.goto {
+  height: 3rem;
+  width: 3rem;
+  margin: 3rem 0;
 }
