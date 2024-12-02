@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard -- Login</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/login.css" />
+  </head>
+  <body>
+    <div class="form">
+      <form class="login-form active" id="login-form">
+        <i class="fas fa-user-circle"></i>
+        <input
+          class="user-input"
+          type="text"
+          placeholder="Username"
+          id="login-username"
+          required
+        />
+        <input
+          class="user-input"
+          type="password"
+          placeholder="Password"
+          id="login-password"
+          required
+        />
+        <input class="login-btn btn" type="submit" value="LOGIN" />
+        <div class="options-02">
+          <p>
+            Not Registered?
+            <a href="#" id="switch-to-signup">Create an Account</a>
+          </p>
+        </div>
+      </form>
+      <form class="signup-form hidden" id="signup-form" method="post">
+        <i class="fas fa-user-plus"></i>
+        <input
+          class="user-input"
+          type="text"
+          placeholder="Username"
+          id="signup-username"
+          required
+        />
+        <input
+          class="user-input"
+          type="email"
+          placeholder="Email Address"
+          id="signup-email"
+          required
+        />
+        <input
+          class="user-input"
+          type="password"
+          placeholder="Password"
+          id="signup-password"
+          required
+        />
+        <input class="btn signup-btn" type="submit" value="SIGN UP" />
+        <div class="options-02">
+          <p>
+            Already Registered? <a href="#" id="switch-to-login">Sign In</a>
+          </p>
+        </div>
+      </form>
+      <button class="btn home">HOME</button>
+    </div>
+
+    <script src="JS/login.js"></script>
+  </body>
+</html>

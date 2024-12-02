@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard -- <%= username %></title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <section class="dashboard-section">
+      <h1 class="main-heading">Shifa Khana</h1>
+      <div class="flex account">
+        <div class="flex">
+          <h1 class="username">Welcome, <%= username %>!</h1>
+        </div>
+        <div><i class="fas fa-user-circle profile"></i></div>
+      </div>
+      <div class="flex hero-cards">
+        <div class="card row">
+          <div>
+            <img src="Images/Record.png" alt="" height="100px" />
+          </div>
+          <div class="card-text">
+            <p>Reports</p>
+          </div>
+        </div>
+        <div class="card row">
+          <div>
+            <img src="Images/prescription.png" alt="" height="100px" />
+          </div>
+          <div class="card-text">
+            <p>Prescription</p>
+          </div>
+        </div>
+        <div class="card row">
+          <div>
+            <img src="Images/syringe.png" alt="" height="100px" />
+          </div>
+          <div class="card-text">
+            <p>Medicine</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="card row">
+          <div>
+            <img src="Images/calendar.png" alt="" height="100px" />
+          </div>
+          <div class="card-text">
+            <p>Appointments</p>
+          </div>
+        </div>
+        <div class="card row">
+          <div>
+            <img src="Images/consultation.png" alt="" height="100px" />
+          </div>
+          <div class="card-text">
+            <p>E-Consultations</p>
+          </div>
+        </div>
+        <div class="card row">
+          <div>
+            <img src="Images/bill.png" alt="" height="100px" />
+          </div>
+          <div class="card-text">
+            <p>Payments</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
